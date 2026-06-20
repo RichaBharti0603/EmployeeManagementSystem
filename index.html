@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Employee Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System - Unified View</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Employee Management System - Unified View</h1>
+            <p>A modern Git & GitHub workflow project for streamlined HR operations.</p>
+        </div>
+    </header>
 
-<h1>Employee Management System - Unified View</h1>
+    <main class="container">
+        <section class="cards-section">
+            <div class="card">
+                <div class="card-icon">
+                    <!-- User Plus Icon -->
+                    <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <line x1="19" y1="8" x2="19" y2="14"></line>
+                        <line x1="22" y1="11" x2="16" y2="11"></line>
+                    </svg>
+                </div>
+                <h2>Employee Registration</h2>
+                <p>Register new staff members to the central database quickly and securely.</p>
+                <a href="employee-registration.html" class="btn">Go to Registration</a>
+            </div>
 
+            <div class="card">
+                <div class="card-icon">
+                    <!-- Bar Chart Icon -->
+                    <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 3v18h18"></path>
+                        <path d="M18 17V9"></path>
+                        <path d="M13 17V5"></path>
+                        <path d="M8 17v-3"></path>
+                    </svg>
+                </div>
+                <h2>Employee Dashboard</h2>
+                <p>View analytics, manage employee data, and oversee company performance.</p>
+                <a href="employee-dashboard.html" class="btn btn-outline">View Dashboard</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Employee Management System. Created for Internship Evaluation.</p>
+    </footer>
 </body>
 </html>
