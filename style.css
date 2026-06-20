@@ -24,13 +24,12 @@ body {
     min-height: 100vh;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     height: 60vh;
     min-height: 450px;
     background-image: url('heroimage.jpg');
-    background-color: #111827; /* Fallback color */
+    background-color: #111827;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,8 +69,6 @@ body {
     color: #e5e7eb;
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
-
-/* Main Container */
 .container {
     flex: 1;
     max-width: 1200px;
@@ -81,7 +78,6 @@ body {
     z-index: 10;
 }
 
-/* Cards Section */
 .cards-section {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +131,6 @@ body {
     font-size: 1.05rem;
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 14px 28px;
@@ -169,7 +164,6 @@ body {
     color: var(--primary-hover);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 30px 20px;
@@ -178,8 +172,6 @@ footer {
     background-color: var(--card-bg);
     border-top: 1px solid #e5e7eb;
 }
-
-/* Animations */
 @keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -190,7 +182,6 @@ footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.25rem;
